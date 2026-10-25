@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Política de privacidade – Órbita</title>
+  <meta name="description" content="Política de privacidade do Órbita: seus dados ficam no seu computador, sem servidor, sem telemetria e sem anúncios.">
+  <meta name="color-scheme" content="light dark">
+  <style>
+    :root{--bg:#f4f1ea;--fg:#22252a;--muted:#4a4f57;--accent:#3f6b5b;--panel:#ebe7dd;--line:#cfc9bb;--on-accent:#fff}
+    @media (prefers-color-scheme:dark){:root{--bg:#15181b;--fg:#e8eae6;--muted:#b4bab4;--accent:#8fc1a9;--panel:#1e2327;--line:#3a4247;--on-accent:#15181b}}
+    *{box-sizing:border-box}
+    html{font-size:18px;-webkit-text-size-adjust:100%}
+    body{margin:0;background:var(--bg);color:var(--fg);font-family:"Atkinson Hyperlegible","Atkinson Hyperlegible Next",system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;line-height:1.6}
+    .wrap{max-width:40rem;margin:0 auto;padding:0 1rem}
+    header{border-bottom:1px solid var(--line)}
+    header .wrap{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:.5rem 1.5rem;padding-top:.9rem;padding-bottom:.9rem}
+    .brand{font-weight:650;font-size:1.25rem;color:var(--fg);text-decoration:none}
+    nav ul{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:.25rem 1.25rem}
+    a{color:var(--accent);text-decoration:underline;text-underline-offset:.15em;text-decoration-thickness:.08em}
+    a:hover{text-decoration-thickness:.16em}
+    a:focus-visible{outline:3px solid var(--accent);outline-offset:3px;border-radius:4px}
+    nav a[aria-current="page"]{color:var(--fg);font-weight:650}
+    main{padding-top:2rem;padding-bottom:3rem}
+    h1,h2,h3{font-weight:650;line-height:1.25;margin:2.2rem 0 .6rem}
+    h1{font-size:2rem;margin-top:0}
+    h2{font-size:1.45rem}
+    h3{font-size:1.15rem}
+    p,ul,ol{margin:.7rem 0}
+    li{margin:.35rem 0}
+    .lead{font-size:1.15rem;color:var(--muted)}
+    .box{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:1rem 1.25rem;margin:1.25rem 0}
+    .box>:first-child{margin-top:0}.box>:last-child{margin-bottom:0}
+    .btn{display:inline-block;background:var(--accent);color:var(--on-accent);font-weight:650;text-decoration:none;padding:.7rem 1.25rem;border-radius:12px}
+    .btn:hover{text-decoration:underline}
+    .btn:focus-visible{outline:3px solid var(--fg);outline-offset:3px}
+    footer{border-top:1px solid var(--line);color:var(--muted);font-size:.9rem}
+    footer .wrap{padding-top:1.1rem;padding-bottom:1.5rem}
+    footer p{margin:.3rem 0}
+    code{font-family:ui-monospace,Consolas,monospace;font-size:.9em;background:var(--panel);padding:.05em .3em;border-radius:6px}
+    @media (max-width:30rem){html{font-size:17px}h1{font-size:1.7rem}}
+  </style>
+</head>
+<body>
+<header><div class="wrap"><a class="brand" href="index.html">Órbita</a><nav aria-label="Principal"><ul><li><a href="index.html">Início</a></li><li><a href="privacidade.html" aria-current="page">Privacidade</a></li><li><a href="https://github.com/DanielSampaioRodrigues/orbita-versoes/releases/latest">Baixar</a></li></ul></nav></div></header>
+<main class="wrap">
+  <h1>Política de privacidade</h1>
+  <p class="lead">Em vigor desde 25 de outubro de 2026. Escrita em linguagem simples e literal, de propósito.</p>
+
+  <h2 id="quem">1. Quem somos</h2>
+  <p>O Órbita é um aplicativo gratuito de organização de vida para pessoas neurodivergentes. É feito por Daniel Sampaio Rodrigues, pessoa física, no Brasil. Ele é o responsável por este aplicativo e por esta política.</p>
+  <p>Esta política vale para o aplicativo Órbita e para este site. Ela inclui a opção de guardar dados na sua conta Google ou Microsoft, nas versões do aplicativo que trazem essa opção.</p>
+
+  <h2 id="resumo">2. Resumo em 5 tópicos</h2>
+  <ol>
+    <li>Seus dados ficam no seu computador, em um banco de dados criptografado.</li>
+    <li>O Órbita não tem servidor, não pede conta, não tem telemetria, anúncios nem rastreamento.</li>
+    <li>Só sai algo do seu computador se você ligar: uma IA com a sua chave, ou a sua conta Google ou Microsoft.</li>
+    <li>Se você usar a conta Google ou Microsoft, o Órbita acessa só a pasta escondida do app. Ele não vê nenhum outro arquivo seu.</li>
+    <li>Você pode desligar tudo isso quando quiser e apagar o que foi guardado na nuvem.</li>
+  </ol>
+
+  <h2 id="computador">3. O que fica no seu computador</h2>
+  <p>Tudo o que você escreve no Órbita fica no seu computador: ideias, projetos, rotina, energia e, nas próximas versões, dinheiro, saúde, cuidado psicológico, estudos e leituras.</p>
+  <ul>
+    <li>O banco de dados é inteiro criptografado, com uma chave sorteada no seu computador.</li>
+    <li>Essa chave é trancada pela chave de recuperação (6 palavras), pelo Windows Hello, por um PIN, por uma senha opcional ou por abrir direto, conforme você escolher.</li>
+    <li>Suas preferências visuais (fonte, tamanho, cores) ficam em um arquivo separado, sem criptografia, para a tela de entrada abrir com a sua aparência. Elas não são dados sensíveis.</li>
+    <li>O Órbita funciona sem internet e sem conta.</li>
+    <li>Você pode fazer backup em um arquivo único criptografado e exportar seus dados em formatos abertos. Esses arquivos ficam onde você guardar.</li>
+  </ul>
+  <p>O Órbita não envia nenhum desses dados ao autor. Não existe servidor do Órbita que possa recebê-los.</p>
+
+  <h2 id="sai">4. Quando algo sai do computador</h2>
+  <p>Só nestes casos. Todos dependem de você.</p>
+
+  <h3>4.1 IA com a sua chave</h3>
+  <p>A IA é opcional e nenhuma função depende dela. Se você ligar, usa a sua própria chave de um provedor (Claude, GPT, Gemini, Grok, Sabiá) ou uma IA local no seu computador.</p>
+  <ul>
+    <li>Com provedor externo, o texto que você manda para a IA vai direto do seu computador ao provedor. Não passa pelo Órbita. O provedor trata esse texto pela política dele.</li>
+    <li>A IA propõe e você confirma antes de qualquer coisa ser gravada.</li>
+    <li>Antes de enviar texto que parece de saúde ou de terapia a um provedor externo, o Órbita avisa.</li>
+    <li>Com a IA local, nada sai do seu computador.</li>
+  </ul>
+
+  <h3>4.2 Ditado por voz</h3>
+  <p>O ditado é feito no seu computador, por um modelo local baixado à parte. O áudio não sai do seu computador.</p>
+
+  <h3>4.3 Atualizações</h3>
+  <p>O app consulta este repositório público no GitHub (orbita-versoes) para saber se há versão nova. Nessa consulta, só chega ao GitHub o endereço de internet do seu computador, como em qualquer download. O Órbita não envia seus dados. Nada é baixado sem você mandar. O GitHub tem a política de privacidade dele.</p>
+
+  <h3>4.4 Conta Google ou Microsoft (opcional)</h3>
+  <p>Descrita com detalhe na próxima seção.</p>
+
+  <h2 id="conta">5. Conta Google ou Microsoft, em detalhe</h2>
+  <p>Há uma opção chamada "Guardar na minha conta Google" ou "Guardar na minha conta Microsoft". Ela é opcional. Se você nunca ligar, nada disto acontece.</p>
+
+  <h3>5.1 O que o Órbita acessa</h3>
+  <ul>
+    <li><strong>Google:</strong> a pasta escondida do app no Google Drive (permissão <code>drive.appdata</code>) e o seu e-mail.</li>
+    <li><strong>Microsoft:</strong> a pasta do app no OneDrive (permissão <code>Files.ReadWrite.AppFolder</code>) e o seu e-mail.</li>
+    <li>O e-mail serve só para mostrar na tela qual conta está ligada.</li>
+  </ul>
+
+  <h3>5.2 O que fica guardado lá</h3>
+  <ul>
+    <li>A sua chave de recuperação (as 6 palavras).</li>
+    <li>Uma cópia do seu backup, criptografada, atualizada uma vez por dia.</li>
+  </ul>
+  <p>Serve para recuperar tudo em um computador novo: você instala o Órbita e entra com a conta.</p>
+
+  <h3>5.3 O que o Órbita não acessa</h3>
+  <ul>
+    <li>Nenhum outro arquivo ou pasta do seu Google Drive ou OneDrive.</li>
+    <li>Nem seus e-mails, contatos, agenda, fotos ou documentos.</li>
+    <li>A pasta do app é separada do resto. No Google ela fica escondida da lista normal de arquivos. Na Microsoft ela fica dentro de "Aplicativos". Em ambos os casos, o Órbita só enxerga a própria pasta.</li>
+  </ul>
+
+  <h3>5.4 Onde ficam os tokens de acesso</h3>
+  <p>Quando você entra, a conta entrega ao Órbita um "token", que é uma chave temporária de acesso. Esses tokens ficam dentro do banco criptografado, no seu computador. Eles não vão para nenhum servidor do Órbita, porque não existe um. A comunicação é direta entre o seu computador e o Google ou a Microsoft.</p>
+
+  <h3>5.5 Como desligar e apagar</h3>
+  <ol>
+    <li>No Órbita, abra Ajustes e desligue a opção. Você pode escolher apagar os arquivos da pasta do app.</li>
+    <li>Você também pode revogar o acesso direto na sua conta:
+      <ul>
+        <li>Google: <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a></li>
+        <li>Microsoft: <a href="https://account.live.com/consent/Manage">account.live.com/consent/Manage</a></li>
+      </ul>
+    </li>
+  </ol>
+  <p>Revogar o acesso impede o Órbita de ler ou gravar na pasta. Para apagar os arquivos, use a opção em Ajustes ou apague a pasta do app na sua conta.</p>
+
+  <h3>5.6 O limite, dito com clareza</h3>
+  <div class="box">
+    <p>A chave de recuperação fica guardada junto com a cópia do backup. Por isso, <strong>quem tiver acesso à sua conta Google ou Microsoft consegue recuperar os dados do Órbita</strong>. A segurança dessa forma de recuperação passa a ser a segurança da sua conta.</p>
+    <ul>
+      <li>Recomendamos ligar a verificação em duas etapas na sua conta.</li>
+      <li>Se você perder a conta, perde essa forma de recuperar.</li>
+      <li>Se preferir não confiar isso a uma conta, não use a nuvem. Guarde as 6 palavras você mesmo (papel, arquivo ou pessoa de confiança). Elas funcionam em qualquer computador.</li>
+    </ul>
+  </div>
+
+  <h2 id="uso-limitado">6. Uso limitado dos dados do Google</h2>
+  <p>O uso e a transferência, para qualquer outro app, de informações recebidas das APIs do Google pelo Órbita seguem a <a href="https://developers.google.com/terms/api-services-user-data-policy">Política de dados do usuário dos serviços de API do Google</a>, incluindo os requisitos de Uso Limitado (Limited Use).</p>
+  <p>Na prática:</p>
+  <ul>
+    <li>Os dados do Google Drive (pasta do app) e o e-mail são usados só para oferecer a função que você ligou: guardar e recuperar a chave e o backup, e mostrar qual conta está ligada.</li>
+    <li>Não transferimos esses dados a ninguém. O Órbita não tem servidor e nenhum dado passa por nós.</li>
+    <li>Não usamos esses dados para anúncios, nem para perfis, nem para treinar modelos de IA.</li>
+    <li>Nenhuma pessoa lê esses dados. O conteúdo está criptografado e só abre com a sua chave.</li>
+  </ul>
+
+  <h2 id="lgpd">7. LGPD: seus direitos</h2>
+  <p>O Órbita segue a Lei Geral de Proteção de Dados (Lei 13.709/2018). Como o Órbita não tem servidor, os dados ficam com você e você os controla. Na prática:</p>
+  <ul>
+    <li><strong>Acesso e portabilidade:</strong> você vê tudo no app e exporta em formatos abertos.</li>
+    <li><strong>Correção:</strong> você edita qualquer registro no app.</li>
+    <li><strong>Eliminação:</strong> você apaga registros no app, ou desinstala o app e apaga a pasta de dados. Para a nuvem, veja a seção 5.5.</li>
+    <li><strong>Revogar consentimento:</strong> você desliga a IA ou a conta quando quiser.</li>
+    <li><strong>Informação:</strong> esta política diz quando algo sai do computador.</li>
+  </ul>
+  <p>Dados de saúde e de terapia são dados pessoais sensíveis. Por isso ficam só no seu computador, a menos que você escolha o contrário (IA externa, com aviso prévio; ou nuvem, em backup criptografado).</p>
+  <p>O autor do Órbita não recebe nem guarda seus dados, então não tem como acessá-los, alterá-los ou apagá-los por você. Se tiver dúvida sobre seus direitos, use o contato abaixo.</p>
+  <p><strong>Controlador:</strong> em relação ao que você guarda no seu computador, o controlador é você. Em relação ao funcionamento do aplicativo e desta política, o responsável é Daniel Sampaio Rodrigues. Os provedores que você escolher (IA, Google, Microsoft, GitHub) são controladores independentes do que recebem.</p>
+
+  <h2 id="criancas">8. Crianças</h2>
+  <p>O Órbita não é dirigido a crianças e não coleta dados de ninguém, nem de crianças. Como os dados ficam no computador, quem cuida de uma criança ou adolescente decide como usar o app. Para menores de 18 anos, recomendamos o uso com um responsável. Isso vale principalmente se a conta Google ou Microsoft ou uma IA externa forem ligadas.</p>
+
+  <h2 id="mudancas">9. Mudanças nesta política</h2>
+  <p>Se esta política mudar, a data no topo e no rodapé muda. Mudanças que afetem o que sai do seu computador serão avisadas no app, antes de valerem. Você pode adiar atualizações do app. As versões antigas desta página ficam no histórico público do repositório.</p>
+
+  <h2 id="contato">10. Contato</h2>
+  <p>Para dúvidas, pedidos ou problemas, abra uma "issue" em <a href="https://github.com/DanielSampaioRodrigues/orbita-versoes/issues">github.com/DanielSampaioRodrigues/orbita-versoes/issues</a>.</p>
+  <p><strong>Atenção:</strong> essa página é pública. Qualquer pessoa pode ler o que você escrever lá. Não coloque dados pessoais, de saúde ou chaves nela.</p>
+</main>
+<footer><div class="wrap"><p>Órbita, por Daniel Sampaio Rodrigues. Gratuito, sem anúncios e sem rastreamento.</p><p>Última atualização: 25 de outubro de 2026.</p></div></footer>
+</body>
+</html>

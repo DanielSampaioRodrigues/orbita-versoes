@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Órbita – organizador de vida para pessoas neurodivergentes</title>
+  <meta name="description" content="O Órbita é um organizador de vida gratuito, em português, para pessoas neurodivergentes. Os dados ficam no seu computador.">
+  <meta name="color-scheme" content="light dark">
+  <style>
+    :root{--bg:#f4f1ea;--fg:#22252a;--muted:#4a4f57;--accent:#3f6b5b;--panel:#ebe7dd;--line:#cfc9bb;--on-accent:#fff}
+    @media (prefers-color-scheme:dark){:root{--bg:#15181b;--fg:#e8eae6;--muted:#b4bab4;--accent:#8fc1a9;--panel:#1e2327;--line:#3a4247;--on-accent:#15181b}}
+    *{box-sizing:border-box}
+    html{font-size:18px;-webkit-text-size-adjust:100%}
+    body{margin:0;background:var(--bg);color:var(--fg);font-family:"Atkinson Hyperlegible","Atkinson Hyperlegible Next",system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;line-height:1.6}
+    .wrap{max-width:40rem;margin:0 auto;padding:0 1rem}
+    header{border-bottom:1px solid var(--line)}
+    header .wrap{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:.5rem 1.5rem;padding-top:.9rem;padding-bottom:.9rem}
+    .brand{font-weight:650;font-size:1.25rem;color:var(--fg);text-decoration:none}
+    nav ul{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:.25rem 1.25rem}
+    a{color:var(--accent);text-decoration:underline;text-underline-offset:.15em;text-decoration-thickness:.08em}
+    a:hover{text-decoration-thickness:.16em}
+    a:focus-visible{outline:3px solid var(--accent);outline-offset:3px;border-radius:4px}
+    nav a[aria-current="page"]{color:var(--fg);font-weight:650}
+    main{padding-top:2rem;padding-bottom:3rem}
+    h1,h2,h3{font-weight:650;line-height:1.25;margin:2.2rem 0 .6rem}
+    h1{font-size:2rem;margin-top:0}
+    h2{font-size:1.45rem}
+    h3{font-size:1.15rem}
+    p,ul,ol{margin:.7rem 0}
+    li{margin:.35rem 0}
+    .lead{font-size:1.15rem;color:var(--muted)}
+    .box{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:1rem 1.25rem;margin:1.25rem 0}
+    .box>:first-child{margin-top:0}.box>:last-child{margin-bottom:0}
+    .btn{display:inline-block;background:var(--accent);color:var(--on-accent);font-weight:650;text-decoration:none;padding:.7rem 1.25rem;border-radius:12px}
+    .btn:hover{text-decoration:underline}
+    .btn:focus-visible{outline:3px solid var(--fg);outline-offset:3px}
+    footer{border-top:1px solid var(--line);color:var(--muted);font-size:.9rem}
+    footer .wrap{padding-top:1.1rem;padding-bottom:1.5rem}
+    footer p{margin:.3rem 0}
+    code{font-family:ui-monospace,Consolas,monospace;font-size:.9em;background:var(--panel);padding:.05em .3em;border-radius:6px}
+    @media (max-width:30rem){html{font-size:17px}h1{font-size:1.7rem}}
+  </style>
+</head>
+<body>
+<header><div class="wrap"><a class="brand" href="index.html">Órbita</a><nav aria-label="Principal"><ul><li><a href="index.html" aria-current="page">Início</a></li><li><a href="privacidade.html">Privacidade</a></li><li><a href="https://github.com/DanielSampaioRodrigues/orbita-versoes/releases/latest">Baixar</a></li></ul></nav></div></header>
+<main class="wrap">
+  <h1>Órbita</h1>
+  <p class="lead">Um organizador de vida gratuito, em português, para pessoas neurodivergentes. Seus dados ficam no seu computador.</p>
+
+  <h2>O que é</h2>
+  <p>O Órbita ajuda a guardar ideias, organizar projetos, planejar o dia e a rotina, acompanhar a energia e, nas próximas versões, cuidar de dinheiro, saúde, estudos e leituras. Tudo no mesmo lugar, com a aparência que você escolher.</p>
+  <p>Foi pensado para pessoas autistas, com TDAH, dislexia, altas habilidades e outras formas de neurodivergência. Não é só para um grupo.</p>
+  <p>É feito por Daniel Sampaio Rodrigues, designer, editor e estudante de psicologia.</p>
+
+  <h2>Os 7 princípios</h2>
+  <p>Cada tela e cada função passam por estes princípios. Se uma ideia nova entrar em conflito com eles, os princípios vencem.</p>
+  <ol>
+    <li><strong>Previsibilidade.</strong> Nada muda sem aviso. As atualizações mostram o que mudou e você pode adiar.</li>
+    <li><strong>Baixo estímulo por padrão.</strong> Sem som, sem animação forte, sem notificação insistente. Um botão leva tudo ao neutro.</li>
+    <li><strong>Sem culpa.</strong> Pausar é uma ação válida. Não há sequências que zeram nem avisos em vermelho gritante.</li>
+    <li><strong>Sem gamificação punitiva.</strong> Recompensas, se houver, são opcionais e nunca tiram nada de você.</li>
+    <li><strong>Captura sem atrito.</strong> Registrar algo leva poucos segundos, por texto ou voz, de qualquer tela.</li>
+    <li><strong>Retomar é tão importante quanto começar.</strong> Projetos, leituras e tarefas longas guardam onde você parou e qual é o próximo passo.</li>
+    <li><strong>Acessibilidade sensorial e cognitiva.</strong> Fontes para dislexia, densidade ajustável, contraste garantido, atalhos de teclado e linguagem simples e literal.</li>
+  </ol>
+
+  <h2>Privacidade em 3 linhas</h2>
+  <ul>
+    <li>Seus dados ficam no seu computador, em um banco criptografado. Funciona sem internet e sem conta.</li>
+    <li>Sem telemetria, sem anúncios, sem rastreamento. O Órbita não tem servidor.</li>
+    <li>Guardar na sua conta Google ou Microsoft é opcional e só usa a pasta escondida do app.</li>
+  </ul>
+  <p><a href="privacidade.html">Ler a política de privacidade completa</a></p>
+
+  <h2>Baixar</h2>
+  <p>Por enquanto o Órbita é só para Windows. Versões para Mac e celular estão planejadas, mas ainda não existem.</p>
+  <p><a class="btn" href="https://github.com/DanielSampaioRodrigues/orbita-versoes/releases/latest">Baixar a versão mais recente</a></p>
+  <p>A página de downloads fica no GitHub. O app também avisa quando há versão nova, e você decide se e quando atualizar.</p>
+</main>
+<footer><div class="wrap"><p>Órbita, por Daniel Sampaio Rodrigues. Gratuito, sem anúncios e sem rastreamento.</p><p>Última atualização: 25 de outubro de 2026.</p></div></footer>
+</body>
+</html>
