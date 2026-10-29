@@ -6,8 +6,8 @@
 // (o app pede pelo aviso de atualização). Assim funciona sem internet e nunca
 // troca de versão sozinho.
 
-const VERSAO = "0.44.4";
-const ARQUIVOS = ["assets/OpenDyslexic-Bold---3zZrhu.woff2","assets/OpenDyslexic-Regular-lDhYFwX0.woff2","assets/atkinson-hyperlegible-next-latin-ext-wght-normal-C6vrW8VD.woff2","assets/atkinson-hyperlegible-next-latin-wght-normal-BcXVPD7q.woff2","assets/dist-js-Bkw5okW-.js","assets/dist-js-D5dHsMi2.js","assets/index-BntB3sPB.js","assets/index-CWTsetnq.css","assets/lexend-latin-ext-wght-normal-B6JQhE1e.woff2","assets/lexend-latin-wght-normal-ci0D1wrL.woff2","assets/lexend-vietnamese-wght-normal-RvljkFvg.woff2","assets/pdf.worker.min-yatZIOMy.mjs","icone-180.png","icone-192.png","icone-512.png","icone-maskable-512.png","index.html","manifest.webmanifest"];
+const VERSAO = "0.44.5";
+const ARQUIVOS = ["assets/OpenDyslexic-Bold---3zZrhu.woff2","assets/OpenDyslexic-Regular-lDhYFwX0.woff2","assets/atkinson-hyperlegible-next-latin-ext-wght-normal-C6vrW8VD.woff2","assets/atkinson-hyperlegible-next-latin-wght-normal-BcXVPD7q.woff2","assets/dist-js-BLuimp39.js","assets/dist-js-DeaRFiIK.js","assets/index-BgmLnysc.css","assets/index-CjENEXU7.js","assets/lexend-latin-ext-wght-normal-B6JQhE1e.woff2","assets/lexend-latin-wght-normal-ci0D1wrL.woff2","assets/lexend-vietnamese-wght-normal-RvljkFvg.woff2","assets/pdf.worker.min-yatZIOMy.mjs","icone-180.png","icone-192.png","icone-512.png","icone-maskable-512.png","index.html","manifest.webmanifest"];
 
 const CACHE = `orbita-${VERSAO}`;
 const GALERIA = "orbita-galeria";
